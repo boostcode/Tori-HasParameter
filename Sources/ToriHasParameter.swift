@@ -19,7 +19,7 @@ import Kitura
 import KituraNet
 import SwiftyJSON
 
-public class HasParameter: AllowRemoteMiddleware {
+public class HasParameter: RouterMiddleware {
    
     private let params: [String]
     private let returnStatus: HTTPStatusCode
