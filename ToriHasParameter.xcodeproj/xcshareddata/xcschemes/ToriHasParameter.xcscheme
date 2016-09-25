@@ -28,20 +28,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_KituraSys"
-               BuildableName = "KituraSys.framework"
-               BlueprintName = "KituraSys"
-               ReferencedContainer = "container:ToriHasParameter.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "______Target_Socket"
                BuildableName = "Socket.framework"
                BlueprintName = "Socket"
@@ -59,6 +45,20 @@
                BlueprintIdentifier = "______Target_CHTTPParser"
                BuildableName = "CHTTPParser.framework"
                BlueprintName = "CHTTPParser"
+               ReferencedContainer = "container:ToriHasParameter.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "______Target_SSLService"
+               BuildableName = "SSLService.framework"
+               BlueprintName = "SSLService"
                ReferencedContainer = "container:ToriHasParameter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -138,19 +138,8 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_ToriHasParameterTestSuite"
-               BuildableName = "ToriHasParameterTestSuite.xctest"
-               BlueprintName = "ToriHasParameterTestSuite"
-               ReferencedContainer = "container:ToriHasParameter.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <AdditionalOptions>
       </AdditionalOptions>

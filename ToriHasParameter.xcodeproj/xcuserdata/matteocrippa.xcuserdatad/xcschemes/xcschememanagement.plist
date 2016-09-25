@@ -34,6 +34,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>______Target_SSLService</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>______Target_Socket</key>
 		<dict>
 			<key>primary</key>

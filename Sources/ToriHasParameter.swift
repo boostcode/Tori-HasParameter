@@ -29,7 +29,7 @@ public class HasParameter: RouterMiddleware {
         self.returnStatus = returnStatus
     }
     
-    public func handle(request: RouterRequest, response: RouterResponse, next: () -> Void) {
+    public func handle(request: RouterRequest, response: RouterResponse, next: @escaping () -> Void) {
 
         // loop params
         for param in params {
